@@ -18,7 +18,7 @@ with open('texto.txt','r') as arquivo:
                 numeros += 1
             elif letra.isspace():
                 branco += 1   
-        # n += 1 Nao sei se ficaria utilizar aqui no for ou com len acimaa  
+        # n += 1 Nao sei se ficaria utilizar aqui no for ou com len acima
 print(f'Tivemos {maiuscula} letras maiusculas, {minuscula} letras minusculas, {branco} espaços em branco, {numeros} numeros e {n} quebras de linhas')
 
 # Feedback por favor:
